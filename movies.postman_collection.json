@@ -1,0 +1,156 @@
+{
+	"id": "88745d76-7944-1d31-8c67-73310cecfe8e",
+	"name": "movies",
+	"description": "",
+	"order": [
+		"95793406-83f6-be60-62aa-318b986b8e15",
+		"e2c589c4-d33d-cf06-72f6-61dd311e0292",
+		"cca1be4c-f7e0-650e-5102-7b77670a3237",
+		"2ec2b414-1593-a8e0-dad1-cb46d63295d0",
+		"19b66af7-98a5-05c9-c5be-8947a3189a17"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1603969094565,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "19b66af7-98a5-05c9-c5be-8947a3189a17",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/movies/searchbygenres",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603995946464,
+			"name": "search by genres",
+			"description": "",
+			"collectionId": "88745d76-7944-1d31-8c67-73310cecfe8e",
+			"responses": [],
+			"rawModeData": "{\n\t\"genres\":[\"drama\",\" Musical\"]\n}"
+		},
+		{
+			"id": "2ec2b414-1593-a8e0-dad1-cb46d63295d0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/movies/searchbyrating",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603994390421,
+			"name": "search by rating",
+			"description": "",
+			"collectionId": "88745d76-7944-1d31-8c67-73310cecfe8e",
+			"responses": [],
+			"rawModeData": "{\n\t\"rating\"\t:\"6\",\n\t\"with\"\t:\">\"\n}"
+		},
+		{
+			"id": "95793406-83f6-be60-62aa-318b986b8e15",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/movies/search",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603992287777,
+			"name": "search by title",
+			"description": "",
+			"collectionId": "88745d76-7944-1d31-8c67-73310cecfe8e",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\"\t:\"test\"\n}"
+		},
+		{
+			"id": "cca1be4c-f7e0-650e-5102-7b77670a3237",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/movies/searchbyreleaseyear",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603993046839,
+			"name": "search by releaseyear",
+			"description": "",
+			"collectionId": "88745d76-7944-1d31-8c67-73310cecfe8e",
+			"responses": [],
+			"rawModeData": "{\n\t\"from\"\t:\"2013\",\n\t\"to\"\t:\"2014\"\n}"
+		},
+		{
+			"id": "e2c589c4-d33d-cf06-72f6-61dd311e0292",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/movies/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603996125801,
+			"name": "search by id",
+			"description": "",
+			"collectionId": "88745d76-7944-1d31-8c67-73310cecfe8e",
+			"responses": []
+		}
+	]
+}
